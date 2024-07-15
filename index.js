@@ -39,7 +39,7 @@ mail_Me.addEventListener("click", () => {
 
 // phone call ===========================================================================
 
-const call_Phone = querySelectAll(".phone-btn")
+const call_Phone = querySelectOne(".phone-btn")
 
 call_Phone.addEventListener("click", () => {
   createdaTag.href = "tel:+639171234567";
