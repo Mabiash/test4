@@ -42,6 +42,7 @@ mail_Me.addEventListener("click", () => {
 const call_Phone = querySelectOne(".phone-btn")
 
 call_Phone.addEventListener("click", () => {
+  alert(0)
   createdaTag.href = "tel:+639171234567";
   createdaTag.click();
 })
